@@ -61,12 +61,12 @@ public class Email {
 		return firstName;
 	}
 
-	public String getEmail() {
-		return email;
-	}
-
 	public void setEmail(String email) {
 		this.email = firstName.toLowerCase() + lastName.toLowerCase() + "@" + department + "." + "aeycompany.com";
+	}
+	
+	public String getEmail() {
+		return email;
 	}
 
 	public void setFirstName(String firstName) {
